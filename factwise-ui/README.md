@@ -1,6 +1,11 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I have developed this project using VSCode code editor and ReactJS.
+I used create-react-app to set up your project environment
+
+### Dependencies
+
+I have installed the dependencies like axios, nodemon, bootstrap and react-icons.
 
 ## Available Scripts
 
@@ -69,6 +74,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+### useEffect
+This hook is used to fetch the list of users from the "celebrities.json" file when the component mounts. It runs only once after the initial render.
 
 ### useMemo
 
@@ -76,3 +83,8 @@ useMemo is used to re-evaluate only when the usersList or searchedValue changes
 
 ### axios
 
+get users from json file
+
+### useState
+
+The useState hook is used to store the components data that changes over the time.
